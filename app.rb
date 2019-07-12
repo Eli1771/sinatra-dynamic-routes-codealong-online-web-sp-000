@@ -23,4 +23,5 @@ class App < Sinatra::Base
     @number1 = params[:num1]
     @number2 = params[:num2]
     "<h1>#{@number1 * @number2}</h1>"
+  end
 end
